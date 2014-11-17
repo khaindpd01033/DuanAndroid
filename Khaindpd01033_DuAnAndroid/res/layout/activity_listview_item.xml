@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40.0dip"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingEnd="0.0dip"
+    android:paddingStart="0.0dip" >
+
+    <TextView
+        android:id="@id/txtShowFavHis"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_margin="2.0dip"
+        android:drawableLeft="@drawable/ic_notepad"
+        android:drawablePadding="5.0dip"
+        android:gravity="left|center"
+        android:textColor="#ff1919a3"
+        android:textSize="14.0sp"
+        android:textStyle="bold" 
+        android:background="@drawable/list"/>
+
+</LinearLayout>

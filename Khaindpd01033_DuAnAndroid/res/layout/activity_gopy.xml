@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical"
+   android:background="@drawable/bg_abstract_white_triangles" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Đóng góp ý kiện của bạn khi sử dụng ứng dung của chúng tôi!"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+   <TextView
+       android:id="@+id/recipient"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:gravity="center"
+       android:inputType="textEmailAddress" 
+       android:text="khaindpd01033@fpt.edu.vn" />
+
+   <EditText
+       android:id="@+id/subject"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:hint="Tiêu Đề" />
+
+   <EditText
+       android:id="@+id/body"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:ems="10"
+       android:hint="Nội dung" />
+
+   <ImageView
+       android:id="@+id/sendEmail"
+       android:src="@drawable/gopy"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:text="Gửi Góp Ý" />
+    
+</LinearLayout>

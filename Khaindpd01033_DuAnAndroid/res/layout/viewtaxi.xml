@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip" 
+    android:background="@drawable/list">
+
+    <ImageView
+        android:id="@+id/imgLogoTaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:background="#FDFDFD"
+        android:scaleType="center"
+        android:src="@drawable/ic_notepad" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtNameTaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:layout_toRightOf="@+id/imgLogoTaxi"
+        android:lines="1"
+        android:paddingLeft="5dip"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#8B0000"
+        android:textSize="18sp" >
+    </TextView>
+
+</RelativeLayout>

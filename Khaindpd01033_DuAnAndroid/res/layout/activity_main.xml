@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:id="@id/tablelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnsuckhoe"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_span="3"
+                android:layout_weight="1.0"
+                android:background="#ff1996d7"
+                android:drawableTop="@drawable/row1"
+                android:text="@string/row1"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnnaunuong"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_weight="1.0"
+                android:background="#ffde4b39"
+                android:drawableTop="@drawable/row21"
+                android:text="Ẩm Thực"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+
+            <Button
+                android:id="@+id/btnQuavadoan"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_weight="1.0"
+                android:background="#ff95b232"
+                android:drawableTop="@drawable/row22"
+                android:text="Thức Uống"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+
+            <Button
+                android:id="@+id/btnsacdep"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_weight="1.0"
+                android:background="#fff3bf00"
+                android:drawableTop="@drawable/row23"
+                android:text="@string/row23"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnhistory"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_weight="1.0"
+                android:background="#ff04aeda"
+                android:drawableTop="@drawable/row31"
+                android:text="@string/row31"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+
+            <Button
+                android:id="@+id/btnyeuthich"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_span="2"
+                android:layout_weight="1.0"
+                android:background="#ff00a94f"
+                android:drawableTop="@drawable/row32"
+                android:text="@string/row32"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" >
+        </TableRow>
+
+        <TableRow
+            android:id="@id/tableRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btndodunggd"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_span="2"
+                android:layout_weight="1.0"
+                android:background="#ff3678c0"
+                android:drawableTop="@drawable/row51"
+                android:text="@string/row51"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/tableRow6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnvesinh"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_span="2"
+                android:layout_weight="1.0"
+                android:background="#ff8b0189"
+                android:drawableTop="@drawable/row61"
+                android:text="@string/row61"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+
+            <Button
+                android:id="@+id/btnvanphong"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_weight="1.0"
+                android:background="#ffaa3f41"
+                android:drawableTop="@drawable/row62"
+                android:text="Công Nghệ"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/tableRow7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnquanao"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_span="3"
+                android:layout_weight="1.0"
+                android:background="#fff5a832"
+                android:drawableTop="@drawable/row7"
+                android:text="Phụ Kiện "
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/tableRow8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btngopy"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_weight="1.0"
+                android:background="#ff5fccff"
+                android:drawableTop="@drawable/row82"
+                android:text="@string/row82"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+
+            <Button
+                android:id="@+id/btngioithieu"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_weight="1.0"
+                android:background="#ffbc1c48"
+                android:drawableTop="@drawable/row83"
+                android:text="@string/row83"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

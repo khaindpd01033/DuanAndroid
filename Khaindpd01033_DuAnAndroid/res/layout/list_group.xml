@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView  android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_margin="2.0dip"
+        android:id="@+id/txtgroupThongke"
+        android:drawablePadding="5.0dip"
+        android:gravity="left|center"
+        android:textColor="#ff1919a3"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/list"
+        android:drawableLeft="@drawable/ic_notepad"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>    
+
+</LinearLayout>
